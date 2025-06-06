@@ -1,13 +1,12 @@
 # TurkScript Syntax Highlighter 🚀
-
 TurkScript dilinde yazılmış kodlar için gerçek zamanlı sözdizimi vurgulaması yapan GUI uygulaması. Bu proje, Türkçe anahtar kelimelerle çalışan özgün bir programlama dili olan TurkScript için lexical analyzer, parser ve syntax highlighter içerir.
 
-## Proje Hakkında 📝
 
+## Proje Hakkında 📝
 Bu uygulama, modern compiler tasarım prensiplerini kullanarak gerçek zamanlı kod analizi ve sözdizimi vurgulaması sağlar. TurkScript, tamamen Türkçe anahtar kelimelerle tasarlanmış özgün bir programlama dilidir.
 
-### Özellikler ⭐
 
+### Özellikler ⭐
 - **Gerçek Zamanlı Syntax Highlighting**: 300ms gecikme ile anlık renklendirme
 - **Leksikal Analiz**: 10 farklı token türünü tanıyan lexer
 - **Sözdizimi Analizi**: Top-down parser ile grammar kontrolü
@@ -16,7 +15,6 @@ Bu uygulama, modern compiler tasarım prensiplerini kullanarak gerçek zamanlı 
 - **Türkçe Dil Desteği**: Tamamen Türkçe anahtar kelimeler
 
 ### TurkScript Dili 💻
-
 ```turkscript
 // TurkScript Örneği
 degisken sayi x = 10;
@@ -36,6 +34,7 @@ degisken sonuc = cagir topla(5, 3);
 yazdir(sonuc);
 ```
 
+
 ## Ekran Görüntüleri 📸
 
 ### Ana Arayüz
@@ -47,33 +46,29 @@ yazdir(sonuc);
 ### Hata Raporlama
 ![Hata Raporlama](docs/images/error_reporting.png)
 
+
 ## Kurulum ve Çalıştırma 🛠️
 
 ### Gereksinimler
-
 - Python 3.7 veya üzeri
 - Tkinter (Python ile birlikte gelir)
 
 ### Kurulum Adımları
-
 1. Projeyi GitHub'dan klonlayın:
 ```bash
 git clone https://github.com/makhsudov/SyntaxHighlighter.git
 cd SyntaxHighlighter
 ```
-
 2. `src` klasörüne gidin:
 ```bash
 cd src
 ```
-
 3. Uygulamayı çalıştırın:
 ```bash
 python main.py
 ```
 
 ### Dosya Yapısı
-
 ```
 src/
 ├── main.py                 # Ana uygulama dosyası
@@ -83,17 +78,16 @@ src/
 └── turkscript_grammar.py   # Dil gramerı ve tanımları
 ```
 
+
 ## Teknik Detaylar ⚙️
 
 ### Mimari
-
 - **Lexer**: State Diagram & Program Implementation yaklaşımı
 - **Parser**: Top-Down (Recursive Descent) Parser
 - **GUI**: Tkinter framework ile responsive tasarım
 - **Real-time Analysis**: Debounce mechanism ile performans optimizasyonu
 
 ### Token Türleri
-
 - ANAHTAR_KELIME (eger, dongu, fonksiyon)
 - TANIMLAYICI (değişken adları)
 - SAYI (123, 45.67)
@@ -103,18 +97,19 @@ src/
 - YORUM (// yorum satırı)
 - HATA (tanınmayan karakterler)
 
-## Dokümantasyon ve Kaynaklar
 
+## Dokümantasyon ve Kaynaklar
 - **Demo Video**: [YouTube'da İzle](https://youtu.be/b8V-WN-o0so)
 - **Teknik Makale**: [Medium'da Oku](https://medium.com/@makhsudov/turkscript-python-ile-lexer-parser-ve-real-time-syntax-highlighting-geli%C5%9Ftirme-5905bed229d6)
 - **Proje Dokümantasyonu**: [PDF İndir](docs/documentation.pdf)
 
-## Kullanım ⌨️
 
+## Kullanım ⌨️
 1. Uygulamayı başlatın
 2. Sol paneldeki kod editörüne TurkScript kodunuzu yazın
 3. Gerçek zamanlı syntax highlighting ve hata kontrolü görün
 4. Sağ panelde token istatistikleri ve hata raporlarını inceleyin
+
 
 ## Örnek TurkScript Kodları
 
@@ -147,8 +142,8 @@ fonksiyon selamla(isim) {
 cagir selamla("Dünya");
 ```
 
-## Proje Bilgileri 👤
 
+## Proje Bilgileri 👤
 - **Geliştirici**: Edem Makhsudov
 - **Öğrenci No**: 22360859373
 - **Üniversite**: Bursa Teknik Üniversitesi
@@ -156,8 +151,6 @@ cagir selamla("Dünya");
 - **Ders**: BLM0238 Programlama Dilleri
 
 
-
 ---
 
 _**Not**: Bu proje "Real-Time Grammar-Based Syntax Highlighter with GUI" projesi kapsamında geliştirilmiştir._
-
