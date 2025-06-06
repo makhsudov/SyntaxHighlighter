@@ -59,7 +59,7 @@ yazdir(sonuc);
 1. Projeyi GitHub'dan klonlayın:
 ```bash
 git clone https://github.com/makhsudov/SyntaxHighlighter.git
-cd turkscript-syntax-highlighter
+cd SyntaxHighlighter
 ```
 
 2. `src` klasörüne gidin:
