@@ -101,7 +101,7 @@ src/
 ## Dokümantasyon ve Kaynaklar
 - **Demo Video**: [YouTube'da İzle](https://youtu.be/b8V-WN-o0so)
 - **Teknik Makale**: [Medium'da Oku](https://medium.com/@makhsudov/turkscript-python-ile-lexer-parser-ve-real-time-syntax-highlighting-geli%C5%9Ftirme-5905bed229d6)
-- **Proje Dokümantasyonu**: [PDF İndir](docs/documentation.pdf)
+- **Proje Dokümantasyonu**: [PDF İndir](docs/Documentation.pdf)
 
 
 ## Kullanım ⌨️
