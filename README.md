@@ -1,12 +1,12 @@
-# TurkScript Syntax Highlighter
+# TurkScript Syntax Highlighter 🚀
 
 TurkScript dilinde yazılmış kodlar için gerçek zamanlı sözdizimi vurgulaması yapan GUI uygulaması. Bu proje, Türkçe anahtar kelimelerle çalışan özgün bir programlama dili olan TurkScript için lexical analyzer, parser ve syntax highlighter içerir.
 
-## Proje Hakkında
+## Proje Hakkında 📝
 
 Bu uygulama, modern compiler tasarım prensiplerini kullanarak gerçek zamanlı kod analizi ve sözdizimi vurgulaması sağlar. TurkScript, tamamen Türkçe anahtar kelimelerle tasarlanmış özgün bir programlama dilidir.
 
-### Özellikler
+### Özellikler ⭐
 
 - **Gerçek Zamanlı Syntax Highlighting**: 300ms gecikme ile anlık renklendirme
 - **Leksikal Analiz**: 10 farklı token türünü tanıyan lexer
@@ -15,7 +15,7 @@ Bu uygulama, modern compiler tasarım prensiplerini kullanarak gerçek zamanlı 
 - **Kullanıcı Dostu GUI**: Tkinter ile geliştirilmiş modern arayüz
 - **Türkçe Dil Desteği**: Tamamen Türkçe anahtar kelimeler
 
-### TurkScript Dili
+### TurkScript Dili 💻
 
 ```turkscript
 // TurkScript Örneği
@@ -36,7 +36,7 @@ degisken sonuc = cagir topla(5, 3);
 yazdir(sonuc);
 ```
 
-## Ekran Görüntüleri
+## Ekran Görüntüleri 📸
 
 ### Ana Arayüz
 ![Ana Arayüz](docs/images/main_interface.png)
@@ -47,7 +47,7 @@ yazdir(sonuc);
 ### Hata Raporlama
 ![Hata Raporlama](docs/images/error_reporting.png)
 
-## Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma 🛠️
 
 ### Gereksinimler
 
@@ -83,7 +83,7 @@ src/
 └── turkscript_grammar.py   # Dil gramerı ve tanımları
 ```
 
-## Teknik Detaylar
+## Teknik Detaylar ⚙️
 
 ### Mimari
 
@@ -109,7 +109,7 @@ src/
 - **Teknik Makale**: [Medium'da Oku](https://medium.com/@makhsudov/turkscript-python-ile-lexer-parser-ve-real-time-syntax-highlighting-geli%C5%9Ftirme-5905bed229d6)
 - **Proje Dokümantasyonu**: [PDF İndir](docs/documentation.pdf)
 
-## Kullanım
+## Kullanım ⌨️
 
 1. Uygulamayı başlatın
 2. Sol paneldeki kod editörüne TurkScript kodunuzu yazın
@@ -147,7 +147,7 @@ fonksiyon selamla(isim) {
 cagir selamla("Dünya");
 ```
 
-## Proje Bilgileri
+## Proje Bilgileri 👤
 
 - **Geliştirici**: Edem Makhsudov
 - **Öğrenci No**: 22360859373
@@ -159,5 +159,5 @@ cagir selamla("Dünya");
 
 ---
 
-**Not**: Bu proje "Real-Time Grammar-Based Syntax Highlighter with GUI" projesi kapsamında geliştirilmiştir.
-```
+_**Not**: Bu proje "Real-Time Grammar-Based Syntax Highlighter with GUI" projesi kapsamında geliştirilmiştir._
+
